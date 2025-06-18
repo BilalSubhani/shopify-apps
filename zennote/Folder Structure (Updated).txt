@@ -1,0 +1,7 @@
+shopify-todo-kanban/
+├── web/
+│   ├── backend/          # Express server
+│   └── frontend/         # React application
+├── .env                  # Environment variables
+├── shopify.app.toml     # Shopify app configuration
+└── package.json         # Root package configuration
