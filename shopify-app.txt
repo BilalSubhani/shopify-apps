@@ -32,3 +32,11 @@ shopify app deploy
 
 # Check your app’s tunnel/URL and dev settings
 shopify app info
+
+8. For cleaning prisma cache and regenrating prisma client
+    1. npx prisma generate --force
+    2. rm -r -force node_modules/.prisma 
+    3. npm cache clean --force
+    4. npm i
+    5. npx prisma generate
+    6. shopify run dev

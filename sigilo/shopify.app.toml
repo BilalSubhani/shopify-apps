@@ -3,7 +3,7 @@
 client_id = "02fd66331067932de4a90b22edfe4583"
 name = "sigilo"
 handle = "sigilo"
-application_url = "https://strict-robust-maintenance-phil.trycloudflare.com"
+application_url = "https://hugh-confusion-critics-corn.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://strict-robust-maintenance-phil.trycloudflare.com/auth/callback", "https://strict-robust-maintenance-phil.trycloudflare.com/auth/shopify/callback", "https://strict-robust-maintenance-phil.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://hugh-confusion-critics-corn.trycloudflare.com/auth/callback", "https://hugh-confusion-critics-corn.trycloudflare.com/auth/shopify/callback", "https://hugh-confusion-critics-corn.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
