@@ -1,0 +1,38 @@
+After creating app using:
+npm init @shopify/app@latest
+
+The folder structure:
+
+zennote/                          # Root folder of your Shopify app project
+├── .shopify/                     # Shopify-specific config files for the app
+├── .vscode/                      # VSCode-specific settings (editor configurations)
+├── app/                          # Main application code (frontend/backend logic)
+│   ├── routes/                   # Defines individual routes/endpoints for the app
+│   ├── db.server.js              # Handles DB connection logic on the server
+│   ├── entry.server.jsx          # Entry point for the server-rendered app
+│   ├── root.jsx                  # Main React component wrapper (App shell)
+│   ├── routes.js                 # Manages routing logic for the app
+│   └── shopify.server.js         # Shopify server logic like auth, webhooks
+├── extensions/                   # Shopify app extensions like checkout UI, etc.
+├── node_modules/                 # Project dependencies (auto-generated)
+├── prisma/                       # Prisma ORM config and schema for DB
+├── public/                       # Static files served directly (images, etc.)
+├── .dockerignore                 # Specifies files Docker should ignore
+├── .editorconfig                 # Maintains consistent editor settings
+├── .eslintignore                 # Files to ignore during linting
+├── .eslintrc.cjs                 # ESLint config for code linting rules
+├── .gitignore                    # Files and folders Git should ignore
+├── .graphqlrc.js                 # GraphQL config for the app
+├── .npmrc                        # NPM config for the project
+├── .prettierignore               # Files to ignore during formatting
+├── CHANGELOG.md                  # Project change history
+├── Dockerfile                    # Docker configuration for containerization
+├── env.d.ts                      # Type definitions for environment variables
+├── package-lock.json             # NPM lock file (exact versions of deps)
+├── package.json                  # Project metadata and dependencies
+├── README.md                     # Project overview and instructions
+├── remix.config.js               # Remix app framework config
+├── shopify.app.toml              # Shopify app-level configuration
+├── shopify.web.toml              # Shopify web-level configuration
+├── tsconfig.json                 # TypeScript compiler configuration
+└── vite.config.js                # Vite config for frontend bundling

@@ -1,0 +1,30 @@
+# Node modules
+**/node_modules/
+
+# Editor & system files
+**/.vscode/
+**/.DS_Store
+
+# Build and cache folders
+**/.cache/
+**/build/
+**/public/build/
+**/public/_dev/
+**/app/build/
+**/app/public/build/
+
+# Database files
+**/prisma/dev.sqlite
+**/prisma/dev.sqlite-journal
+**/database.sqlite
+
+# Environment variables
+**/.env
+**/.env.*
+
+# Shopify extensions' build folders
+**/extensions/*/dist/
+
+# Shopify app files
+**/.shopify/
+**/.shopify.lock

@@ -1,0 +1,14 @@
+1. Create shopify app
+npm create @shopify/app@latest
+
+2. Login to store and run app
+cd hello-world && shopify app dev
+
+3. Create table in prisma
+cd hello-world && npx prisma migrate dev --name add_tasks_table
+
+4. To view data on prisma
+cd hello-world && npx prisma studio
+
+5. Using SQLite command line tool (if you want to run SQL queries directly)
+sqlite3 prisma/dev.sqlite ".tables"
