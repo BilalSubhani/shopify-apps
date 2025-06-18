@@ -12,3 +12,23 @@ cd hello-world && npx prisma studio
 
 5. Using SQLite command line tool (if you want to run SQL queries directly)
 sqlite3 prisma/dev.sqlite ".tables"
+
+6. Commands for prisma
+# Initialize Prisma (if not already initialized)
+npx prisma init
+
+# Generate Prisma Client (after schema change)
+npx prisma generate
+
+# Reset database (destroys data, use carefully)
+npx prisma migrate reset
+
+7. Shopify App Related
+# Login to Shopify (if not already logged in)
+shopify login --store your-store.myshopify.com
+
+# Deploy to Shopify Partners (only for extensions and production setup)
+shopify app deploy
+
+# Check your app’s tunnel/URL and dev settings
+shopify app info

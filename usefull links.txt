@@ -1,0 +1,8 @@
+Polaris:
+https://polaris-react.shopify.com/components/layout-and-structure
+
+Shopify api refernces
+https://shopify.dev/docs/api/admin-rest
+
+Creating shopify app using remix
+https://shopify.dev/docs/apps/build/build?framework=remix
