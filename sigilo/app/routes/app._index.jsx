@@ -138,6 +138,12 @@ export default function Index() {
                       assign these badges to your products. Select any product and choose from your custom badges to 
                       make them stand out on your online store.
                     </Text>
+                    <Text as="p" variant="bodyMd">
+                      <strong>FAQ Page:</strong> Manage product-specific FAQs efficiently through our dedicated FAQ management system. 
+                      Create and customize FAQs for individual products, and maintain your FAQ content 
+                      with easy-to-use editing and deletion tools. This feature helps you provide detailed product information and 
+                      address common customer questions directly on your product pages.
+                    </Text>
                   </BlockStack>
                 </BlockStack>
                 <BlockStack gap="200">
@@ -145,9 +151,9 @@ export default function Index() {
                     Get Started
                   </Text>
                   <Text as="p" variant="bodyMd">
-                    Click on the navigation menu to access the Products and Settings pages. Start by creating your 
+                    Click on the navigation menu to access the Products, Settings, and FAQ pages. Start by creating your 
                     custom badges in Settings, then assign them to your products to enhance your store's appearance 
-                    and highlight special offers.
+                    and highlight special offers. If you need help, check out the FAQ page for guidance.
                   </Text>
                 </BlockStack>
               </BlockStack>
