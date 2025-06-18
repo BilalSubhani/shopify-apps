@@ -199,7 +199,6 @@ import {
       );
     };
   
-    // Empty state
     const emptyState = (
       <EmptyState
         heading="No badges created yet"
@@ -220,6 +219,7 @@ import {
             onAction: () => handleModalOpen(),
           }}
         >
+          <TitleBar title="Settings" />
           <Layout>
             <Layout.Section>
               {error && (

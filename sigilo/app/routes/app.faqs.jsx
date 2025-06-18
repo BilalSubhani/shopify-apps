@@ -12,12 +12,10 @@ import {
   EmptyState,
   Toast,
   Frame,
-  Box,
   Divider,
   ResourceList,
   ResourceItem,
   ButtonGroup,
-  Spinner,
   Autocomplete,
 } from '@shopify/polaris';
 import { useEffect, useState, useCallback } from 'react';
@@ -48,14 +46,12 @@ export default function FaqPage() {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [selectedProductTitle, setSelectedProductTitle] = useState('');
 
-  // Handle FAQ data updates
   useEffect(() => {
     if (fetcher.data?.faqs) {
       setFaqs(fetcher.data.faqs);
     }
   }, [fetcher.data]);
 
-  // Handle form submission response
   useEffect(() => {
     if (fetcher.state === 'idle' && fetcher.data) {
       setIsSubmitting(false);

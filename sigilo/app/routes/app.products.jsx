@@ -198,7 +198,8 @@ import {
     if (products.length === 0 && !searchValue && selectedBadgeFilter.length === 0) {
       return (
         <Frame>
-          <Page title="Badge Assignment">
+          <Page>
+          <TitleBar title="Badge Assignment" />
             <Layout>
               <Layout.Section>
                 <Card>
